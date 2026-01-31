@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hassan Shafique - Updated Resume</title>
+    <style>
+        :root {
+            --primary-text: #2d3436;
+            --secondary-text: #636e72;
+            --accent: #2c3e50;
+            --border-color: #dfe6e9;
+        }
+
+        body {
+            font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.5;
+            color: var(--primary-text);
+            margin: 0;
+            padding: 0;
+            background-color: #f1f2f6;
+        }
+
+        .resume-container {
+            max-width: 800px;
+            margin: 40px auto;
+            background: #fff;
+            padding: 50px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+            border-radius: 4px;
+        }
+
+        header {
+            text-align: center;
+            border-bottom: 2px solid var(--accent);
+            padding-bottom: 25px;
+            margin-bottom: 25px;
+        }
+
+        h1 {
+            margin: 0;
+            font-size: 2.2rem;
+            text-transform: uppercase;
+            letter-spacing: 1.5px;
+            color: var(--accent);
+        }
+
+        .contact-info {
+            margin-top: 12px;
+            font-size: 0.9rem;
+            color: var(--secondary-text);
+        }
+
+        .contact-info a {
+            color: var(--accent);
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        h2 {
+            font-size: 1.1rem;
+            text-transform: uppercase;
+            border-bottom: 1px solid var(--border-color);
+            padding-bottom: 6px;
+            margin-top: 30px;
+            color: var(--accent);
+            letter-spacing: 0.5px;
+        }
+
+        p {
+            margin: 12px 0;
+        }
+
+        ul {
+            padding-left: 18px;
+            margin: 10px 0;
+        }
+
+        li {
+            margin-bottom: 6px;
+        }
+
+        .item-header {
+            display: flex;
+            justify-content: space-between;
+            font-weight: 600;
+            margin-top: 18px;
+        }
+
+        .institution {
+            font-style: italic;
+            color: var(--secondary-text);
+            font-size: 0.95rem;
+        }
+
+        .btn-container {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        button {
+            padding: 12px 24px;
+            background-color: var(--accent);
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 0.9rem;
+            font-weight: bold;
+            transition: background 0.2s;
+        }
+
+        button:hover {
+            background-color: #1a252f;
+        }
+
+        @media print {
+            body { background: none; }
+            .resume-container { box-shadow: none; margin: 0; width: 100%; max-width: 100%; padding: 20px; }
+            .btn-container { display: none; }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="btn-container">
+        <button onclick="window.print()">Print / Save as PDF</button>
+    </div>
+
+    <div class="resume-container">
+        <header>
+            <h1>Hassan Shafique</h1>
+            <div class="contact-info">
+                hassanshafiqe97@gmail.com | +923240813980 | 
+                <a href="https://github.com/hassanshafiqe" target="_blank">GitHub Portfolio</a><br>
+                House Gm-275 Street 20 Shoukat Street, Nasserabad, Rawalpindi
+            </div>
+        </header>
+
+        <section>
+            <h2>Professional Summary</h2>
+            <p>
+                Results-driven Web Developer with experience building scalable and user-focused web applications. 
+                Skilled in PHP, Laravel, MySQL, JavaScript, HTML5, and CSS3. Experienced in front end and 
+                back end development. Expert in RESTful API integration, database design, and responsive UI creation. 
+                Collaborates effectively with teams to deliver secure and high-performance web solutions. 
+                Focused on clean code, strong problem solving, and continuous learning in modern web technologies.
+            </p>
+        </section>
+
+        <section>
+            <h2>Top Achievements</h2>
+            <ul>
+                <li>Built multiple PHP applications with 100% uptime and high performance.</li>
+                <li>Boosted site speed by 30% through optimized code and smart database design.</li>
+                <li>Enhanced interactivity with REST APIs, AJAX CRUD operations, and dynamic Livewire components.</li>
+                <li>Strengthened user security with robust authentication systems.</li>
+                <li>Leveraged Filament for advanced admin interfaces and efficient backend management.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Core Competencies</h2>
+            <ul>
+                <li>Designed responsive and semantic web pages using HTML5 and CSS3 (Flexbox, Grid, Media Queries).</li>
+                <li>Built mobile-first interfaces with Bootstrap using reusable components.</li>
+                <li>Developed interactive client-side features using modern JavaScript (ES6+) and DOM manipulation.</li>
+                <li>Used AJAX and Fetch API for asynchronous data loading and real-time API communication.</li>
+                <li>Managed structured data exchange with JSON between frontend and backend systems.</li>
+                <li>Created secure session management and authentication using PHP, password_hash, and password_verify.</li>
+                <li>Designed and integrated RESTful APIs with JSON responses for smooth interactions.</li>
+                <li>Applied MVC architecture to organize projects for clean code and better scalability.</li>
+                <li>Built dynamic dashboards using Laravel Livewire and Filament for admin panels.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Education</h2>
+            <div class="item-header">
+                <span>Bachelor of Science in Computer Science (BSCS)</span>
+                <span>03/2017 - 03/2021</span>
+            </div>
+            <div class="institution">FUUAST, Islamabad</div>
+
+            <div class="item-header">
+                <span>Intermediate (ICS)</span>
+                <span>09/2014 - 07/2016</span>
+            </div>
+            <div class="institution">Punjab College, Golar Mora Campus, Rawalpindi</div>
+        </section>
+
+        <section>
+            <h2>Internship</h2>
+            <div class="item-header">
+                <span>PHP Laravel Developer [Ezline Software House]</span>
+                <span>05/2021 - 03/2022</span>
+            </div>
+            <ul>
+                <li>Developed dynamic web applications using the Laravel framework and MySQL.</li>
+                <li>Optimized database queries and backend logic, improving performance by 30%.</li>
+                <li>Collaborated with UI/UX designers and front-end teams for seamless integration.</li>
+                <li>Conducted code reviews and implemented secure authentication best practices.</li>
+                <li>Integrated RESTful APIs and AJAX functionalities to enhance interactivity.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Personal Projects</h2>
+            <ul>
+                <li><strong>AI Ecommerce Store:</strong> Developed a feature-rich ecommerce platform featuring an integrated AI chatbot to assist users with product discovery and customer support.</li>
+                <li><strong>Ai Panel Dashboard:</strong> Designed and built an interactive dashboard for AI-driven insights, utilizing data visualization tools to provide real-time performance metrics and user analytics.</li>
+                <li><strong>GitHub Portfolio:</strong> <a href="https://github.com/shafiquemhassan/" target="_blank">github.com/hassanshafiqe</a></li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Certificates</h2>
+            <p><strong>Advanced Web App Development</strong> - Navttc (Prime Minister's Youth Skill Development Program)</p>
+        </section>
+
+        <section>
+            <h2>Hobbies & Website Projects</h2>
+            <p>
+                Designing and developing PHP Laravel-based web applications with a focus on clean architecture and 
+                responsive UI/UX. I enjoy exploring new websites and searching for innovative application ideas.
+            </p>
+        </section>
+    </div>
+
+    <script>
+        // Simple console confirmation
+        console.log("Resume version 2.0 loaded. Ready for use.");
+    </script>
+</body>
+</html>
